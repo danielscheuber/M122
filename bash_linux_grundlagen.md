@@ -5,7 +5,7 @@ Diese Datei fasst alle wichtigen Kenntnisse im Umgang mit der Bash, der Kommando
 
 ---
 
-## 🖥️ CLI vs. GUI
+## CLI vs. GUI
 
 ### CLI (Command Line Interface)
 - **Definition**: Textbasierte Eingabe über ein Terminal.
@@ -29,7 +29,7 @@ Diese Datei fasst alle wichtigen Kenntnisse im Umgang mit der Bash, der Kommando
 
 ---
 
-## 🔧 Wichtige Bash-Befehle
+## Wichtige Bash-Befehle
 
 | Befehl | Bedeutung |
 |--------|-----------|
@@ -43,7 +43,7 @@ Diese Datei fasst alle wichtigen Kenntnisse im Umgang mit der Bash, der Kommando
 
 ---
 
-## 🤖 Automatisierung
+## Automatisierung
 
 ### Geeignet für:
 - Backups
@@ -58,14 +58,14 @@ Diese Datei fasst alle wichtigen Kenntnisse im Umgang mit der Bash, der Kommando
 
 ---
 
-## 🔠 Case Sensitivity
+## Case Sensitivity
 
 - Linux unterscheidet zwischen Groß- und Kleinschreibung.
   - Beispiel: `Datei.txt` ≠ `datei.txt`
 
 ---
 
-## 🧾 Bash-Skripte schreiben
+## Bash-Skripte schreiben
 
 ### Kommentare
 \`\`\`bash
@@ -92,7 +92,7 @@ Diese Datei fasst alle wichtigen Kenntnisse im Umgang mit der Bash, der Kommando
 
 ---
 
-## ⏲️ Zeitsteuerung mit Cron
+##  Zeitsteuerung mit Cron
 
 - Cronjobs automatisieren Aufgaben zu bestimmten Zeiten.
 - Beispiel (täglich 3 Uhr):
@@ -106,7 +106,7 @@ crontab -e
 
 ---
 
-## 🔐 Dateirechte (RWX)
+## Dateirechte (RWX)
 
 | Buchstabe | Bedeutung |
 |----------|-----------|
@@ -121,7 +121,7 @@ chmod 755 skript.sh
 
 ---
 
-## 🛡️ Sicherheit bei Skripten
+## Sicherheit bei Skripten
 
 - Keine unnötigen Ausführrechte.
 - Skripte nicht für alle (world) beschreibbar machen.
@@ -129,14 +129,14 @@ chmod 755 skript.sh
 
 ---
 
-## 📊 Programmabläufe darstellen
+## Programmabläufe darstellen
 
 - z. B. mit **Flussdiagrammen**, **Pseudocode** oder **UML-Aktivitätsdiagrammen**
 - Tools: draw.io, Lucidchart, PlantUML
 
 ---
 
-## 📝 Skripte dokumentieren
+##  Skrpte dokumentieren
 
 **Warum?**
 - Bessere Verständlichkeit
@@ -145,7 +145,7 @@ chmod 755 skript.sh
 
 ---
 
-## ✅ Tests vorbereiten
+## Tests vorbereiten
 
 - Eingabewerte definieren
 - Erwartete Ausgaben notieren
@@ -153,7 +153,7 @@ chmod 755 skript.sh
 
 ---
 
-## 🔍 Datei suchen und Inhalte durchsuchen
+## Datei suchen und Inhalte durchsuchen
 
 ### Datei suchen
 \`\`\`bash
@@ -197,7 +197,7 @@ echo "Alle Argumente: $@"
 
 ---
 
-## 📤 Ausgabe umleiten
+## Ausgabe umleiten
 
 \`\`\`bash
 echo "Hallo" > datei.txt      # Überschreibt
@@ -207,7 +207,7 @@ ls datei 2> fehler.log        # Fehlerumleitung
 
 ---
 
-## 🔄 SSH & SCP
+## SSH & SCP
 
 ### SSH-Verbindung
 \`\`\`bash
@@ -221,7 +221,7 @@ scp datei.txt user@server:/ziel/
 
 ---
 
-## 📚 Arrays & Schleifen
+##  Arrays & Schleifen
 
 ### Array erstellen
 \`\`\`bash
@@ -237,7 +237,7 @@ done
 
 ---
 
-## 🗂️ Dateien bearbeiten
+## Dateien beareiten
 
 - Erstellen: `touch datei.txt`
 - Bearbeiten: `nano`, `vim`, `gedit`
@@ -245,7 +245,7 @@ done
 
 ---
 
-## 🚀 Bash-Skript erstellen und ausführen
+##  Bash-Skript erstellen und ausführen
 
 1. Datei erstellen:
 \`\`\`bash
