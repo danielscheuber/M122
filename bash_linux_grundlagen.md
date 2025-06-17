@@ -266,4 +266,10 @@ chmod +x mein_skript.sh
 
 ---
 
-**Tipp**: Dieses Dokument kann auch als Lernhilfe für Prüfungen oder zum Nachschlagen bei der Arbeit mit Bash dienen.
+ array=( 1 2 3 4 5 6 7 8 9 )
+ # Alle Elemente im Array durchlaufen
+ for value in ${array[*]}
+ do
+    echo $value
+ done
+
