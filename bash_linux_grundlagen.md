@@ -273,6 +273,4 @@ chmod +x mein_skript.sh
     echo $value
  done
 
-## Rechte
- bash chmod 755 xyz.sh
 
