@@ -145,14 +145,6 @@ grep "Suchbegriff" datei.txt
 
 ---
 
-## ✳️ Wildcards (Platzhalter)
-
-| Zeichen | Bedeutung |
-|--------|-----------|
-| `*` | Beliebig viele Zeichen |
-| `?` | Ein einzelnes Zeichen |
-| `[a-z]` | Zeichenbereich |
-
 Beispiel:
 \`\`\`bash
 ls *.txt
