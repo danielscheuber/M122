@@ -265,7 +265,7 @@ chmod +x mein_skript.sh
 \`\`\`
 
 ---
-
+## Loop
  array=( 1 2 3 4 5 6 7 8 9 )
  # Alle Elemente im Array durchlaufen
  for value in ${array[*]}
@@ -273,5 +273,6 @@ chmod +x mein_skript.sh
     echo $value
  done
 
+## Rechte
  bash chmod 755 xyz.sh
 
