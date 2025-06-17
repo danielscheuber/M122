@@ -67,11 +67,6 @@ Diese Datei fasst alle wichtigen Kenntnisse im Umgang mit der Bash, der Kommando
 
 ## Bash-Skripte schreiben
 
-### Kommentare
-\`\`\`bash
-# Das ist ein Kommentar
-\`\`\`
-
 ### Shebang (Startzeile)
 \`\`\`bash
 #!/bin/bash
@@ -81,28 +76,6 @@ Diese Datei fasst alle wichtigen Kenntnisse im Umgang mit der Bash, der Kommando
 - Kleinbuchstaben
 - Keine Leer- oder Sonderzeichen
 - Beispiel: `mein_skript.sh`
-
-### Skript-Header
-\`\`\`bash
-#!/bin/bash
-# Autor: Max Beispiel
-# Datum: 2025-06-09
-# Beschreibung: Dieses Skript macht XYZ.
-\`\`\`
-
----
-
-##  Zeitsteuerung mit Cron
-
-- Cronjobs automatisieren Aufgaben zu bestimmten Zeiten.
-- Beispiel (täglich 3 Uhr):
-\`\`\`bash
-0 3 * * * /pfad/zum/skript.sh
-\`\`\`
-- Crontab bearbeiten:
-\`\`\`bash
-crontab -e
-\`\`\`
 
 ---
 
